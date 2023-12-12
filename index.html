@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="question-box">
+        <h1 class="question-text">
+            What animal barks?
+        </h1>
+        <img src="./nosie2.png" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">human</button>
+            <button onclick="incorrect(this)" class="answer">bird</button>
+            <button onclick="incorrect(this)" class="answer">cat</button>
+            <button onclick="correct(this)" class="answer">dog</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            What animal has no legs or arms?
+        </h1>
+        <img src="./potato.webp" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">dog</button>
+            <button onclick="correct(this)" class="answer">legless izzerd</button>
+            <button onclick="incorrect(this)" class="answer">cat</button>
+            <button onclick="incorrect(this)" class="answer">bird</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            What animal use tools?
+        </h1>
+        <img src="./stick.webp" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">grasshopper</button>
+            <button onclick="incorrect(this)" class="answer">bird</button>
+            <button onclick="correct(this)" class="answer">humans</button>
+            <button onclick="incorrect(this)" class="answer">worm</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            What animal has finger?
+        </h1>
+        <img src="./chicken fingers.jpg" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="correct(this)" class="answer">human</button>
+            <button onclick="incorrect(this)" class="answer">bird</button>
+            <button onclick="incorrect(this)" class="answer">ants</button>
+            <button onclick="incorrect(this)" class="answer">cat</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            Which animal is mammal?
+        </h1>
+        <img src="./cat.jpg" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">fish</button>
+            <button onclick="incorrect(this)" class="answer">worm</button>
+            <button onclick="correct(this)" class="answer">cat</button>
+            <button onclick="incorrect(this)" class="answer">lizard</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            What is the tallest land animal?
+        </h1>
+        <img src="./meterstick.webp" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">worm</button>
+            <button onclick="incorrect(this)" class="answer">bird</button>
+            <button onclick="incorrect(this)" class="answer">cat</button>
+            <button onclick="correct(this)" class="answer">giraffe</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            which animal lives in the water?
+        </h1>
+        <img src="./nosie.png" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">monkey</button>
+            <button onclick="correct(this)" class="answer">fish</button>
+            <button onclick="incorrect(this)" class="answer">cat</button>
+            <button onclick="incorrect(this)" class="answer">dog</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            Which animal has 8 eyes?
+        </h1>
+        <img src="./nosie.png" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">human</button>
+            <button onclick="correct(this)" class="answer">spider</button>
+            <button onclick="incorrect(this)" class="answer">cat</button>
+            <button onclick="incorrect(this)" class="answer">duck</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            which animal is a decomposer?
+        </h1>
+        <img src="./nosie.png" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="incorrect(this)" class="answer">spider</button>
+            <button onclick="incorrect(this)" class="answer">bird</button>
+            <button onclick="incorrect(this)" class="answer">ant</button>
+            <button onclick="correct(this)" class="answer">worm</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            Which animal has legs
+        </h1>
+        <img src="./nosie.png" alt="" class="question-img">
+        <div class="answer">
+            <button  onclick="correct(this)" class="answer">duck</button>
+            <button onclick="incorrect(this)" class="answer">snake</button>
+            <button onclick="incorrect(this)" class="answer">fish</button>
+            <button onclick="incorrect(this)" class="answer">worm</button>
+        </div>
+        <buttom class="submit" onclick="calculate(this)">Submit</buttom>
+    </div>
+</body>
+</html>

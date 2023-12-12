@@ -1,0 +1,12 @@
+topic: animals
+
+question1 what animal barks 1:dog> 2:human 3:bird 4:cat x
+question2 what animal has no legs or arms 1:dog 2:legless izzerd> 3:cat 4:bird x
+question3 what animal has uses tool 1:grasshopper 2:humans> 3:worm 4ant x
+question4 what animal has fingers : monkey humans> spider duck x
+question5 what is a mammal? lizard cat> duck fish x
+question6 is the tallest land animal? giraffe> dog snake humans x
+question7 Which animal lives in the water? fish> dog giraffe monkey x
+question8 which animal has 8 eyes? spider> fish dog cat x
+question9 which animal is a decomposer? worm> fish dog grasshopper x
+question10 which animal is has legs? worm fish snake ducks> x
